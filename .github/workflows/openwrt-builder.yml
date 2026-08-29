@@ -29,6 +29,7 @@ env:
   DIY_P2_SH: diy-part2.sh
   SSH_ACTIONS: false               # 改名为下划线，方便引用
   UPLOAD_BIN_DIR: false
+  UPLOAD_COWTRANSFER: true
   UPLOAD_FIRMWARE: true
   UPLOAD_RELEASE: true
   TZ: Asia/Shanghai
