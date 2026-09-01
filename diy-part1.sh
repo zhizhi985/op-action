@@ -24,7 +24,7 @@ git clone https://github.com/sirpdboy/luci-app-ddns-go.git package/ddns-go
 # 添加iStore软件源
 echo >> feeds.conf.default
 echo 'src-git istore https://github.com/linkease/istore;main' >> feeds.conf.default
-#更新Istore的feed
+#更新iStore的feed
 ./scripts/feeds update istore
 #安装iStore应用商店及依赖
 ./scripts/feeds install -d y -p istore luci-app-store
