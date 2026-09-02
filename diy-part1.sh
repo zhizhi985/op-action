@@ -9,7 +9,11 @@
 # This is free software, licensed under the MIT License.
 # See /LICENSE for more information.
 #
+# 添加 Alpha 主题
+git clone https://github.com/derisamedia/luci-theme-alpha.git package/luci-theme-alpha
 
+# 添加 Arwi 仪表板
+git clone https://github.com/derisamedia/luci-app-arwi-dashboard.git package/luci-app-arwi-dashboard
 # Uncomment a feed source
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 # 克隆 OpenClash 源码[reference:5]
