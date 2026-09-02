@@ -9,6 +9,8 @@
 # This is free software, licensed under the MIT License.
 # See /LICENSE for more information.
 
+#oaf上网行为管理
+git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
 # 添加 Arwi 仪表板
 git clone https://github.com/derisamedia/luci-app-arwi-dashboard.git package/luci-app-arwi-dashboard
 # Uncomment a feed source
